@@ -1,0 +1,17 @@
+#container{
+    display: grid;
+    grid-template-columns: repeat(4,20%);
+    grid-gap: 5%;
+    margin-left: 40px;
+    text-align: center;
+    
+}
+img{
+    width: 100%;
+}
+#container div{
+    border: 1px solid black;
+    box-shadow: rgba(0, 0, 0, 0.15) 0px 2px 8px;
+    padding-bottom: 10px;
+    border-radius: 5px;
+}
