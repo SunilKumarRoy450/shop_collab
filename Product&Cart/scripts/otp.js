@@ -16,5 +16,5 @@ function formsubmit(event) {
     userpile.push(otpdata);
     localStorage.setItem("otpdatabase", JSON.stringify(userpile))
     alert("Payment Sucessful & Order Placed")
-    window.location.href = "cart.html";
+    window.location.href = "";
 }
